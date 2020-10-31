@@ -7,8 +7,6 @@ const Settings = {
   ERRORS_COUNT: 3
 };
 
-console.log(questions);
-
 ReactDOM.render(
     <App
       errorsCount={Settings.ERRORS_COUNT}

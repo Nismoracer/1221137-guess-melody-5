@@ -24,13 +24,13 @@ export default [
       src: `https://upload.wikimedia.org/wikipedia/commons/4/4e/BWV_543-fugue.ogg`,
     },
     answers: [{
-      picture: `${AVATAR_URL}/${Math.round(Math.random()*3)}`,
+      picture: `${AVATAR_URL}/${Math.round(Math.random() * 3)}`,
       artist: `John Snow`,
     }, {
-      picture: `${AVATAR_URL}/${Math.round(Math.random()*3)}`,
+      picture: `${AVATAR_URL}/${Math.round(Math.random() * 3)}`,
       artist: `Jack Daniels`,
     }, {
-      picture: `${AVATAR_URL}/${Math.round(Math.random()*3)}`,
+      picture: `${AVATAR_URL}/${Math.round(Math.random() * 3)}`,
       artist: `Jim Beam`,
     }],
   }
